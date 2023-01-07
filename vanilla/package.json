@@ -1,0 +1,23 @@
+{
+    "name": "lecture-vue",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.html",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jeonghwan-kim/lecture-vue.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jeonghwan-kim/lecture-vue/issues"
+    },
+    "homepage": "https://github.com/jeonghwan-kim/lecture-vue#readme",
+    "devDependencies": {
+      "lite-server": "^2.6.1"
+    }
+  }
