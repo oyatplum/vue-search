@@ -2,7 +2,7 @@ const data = [
     {
       id: 1,
       name: '[키친르쎌] 홈메이드 칠리소스 포크립 650g',
-      image: 'https://cdn.pixabay.com/photo/2015/05/04/19/39/wide-rib-752849_1280.jpg'
+      image: 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbnkoAN%2FbtrD8NQilmP%2F4cu1H0kAzzWXBhp2jmWgJ0%2Fimg.jpg'
     },
     {
       id: 2,
