@@ -29,6 +29,7 @@ ResultView.getSearchItemHtml = function(item) {
       <img src = "${item.image}">
       <p>${item.name}</p>
     </li>`
+    
 }
 
 export default ResultView

@@ -34,9 +34,11 @@ export default {
       this.fetchSearchKeyword()
       
     } else{
-
+      ResultView.hide()
     }
-    ResultView.hide()
+    //ResultView.hide()
+    
+    
   },
 
   fetchSearchKeyword(){
@@ -47,6 +49,7 @@ export default {
 
   search(query){
     console.log(tag, 'search()', query)
+    FormView.setValue(query)
     SearchModel.list(query).then(data => {
       this.onSearchResult(data)
     })
@@ -59,12 +62,12 @@ export default {
 
   onResetForm() {
     console.log(tag, 'onResetForm()')
-    ResultView.hide()
+    this.renderView()
   },
 
   onSearchResult(data){
-    //TabView.hide()
-    //KeywordView.hide()
+    TabView.hide()
+    KeywordView.hide()
     ResultView.render(data)
   },
 
