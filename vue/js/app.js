@@ -1,18 +1,32 @@
+import SearchModel from './models/SearchModel.js'
+
 new Vue({
     el: '#app',
     data: {
-        query: ''
+        query: '',
+        submitted: false,
+        searchResult: []
     },
     methods: {
         onSubmit(e) {
-            debugger
+            this.search()
         },
         onKeyup() {
             if(!this.query.length) this.onReset()
         },
-        onReset() {
+        onReset(e) {
+            this.resetForm()
+        },
+        resetForm() {
             this.query = ''
-            debugger
+            this.submitted = false
+            this.searchResult = []
+        },
+        search() {
+            SearchModel.list().then(data => {
+                this.submitted = true
+                this.searchResult = data
+            })
         }
     }
 })
