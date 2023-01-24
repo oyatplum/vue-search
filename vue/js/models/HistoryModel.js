@@ -1,8 +1,6 @@
 export default {
     data: [
-      { keyword: '검색기록2', date: '12.03' },
-      { keyword: '검색기록1', date: '12.02'},
-      { keyword: '검색기록0', date: '12.01' },
+      { keyword: '현실적 명수', date: '12.03' }
     ],
   
     list() {
