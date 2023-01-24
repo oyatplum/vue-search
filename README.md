@@ -1,1 +1,1 @@
-# https://github.com/oyatplum/vue-search.git
+# https://oyatplum.github.io/vue-search/
